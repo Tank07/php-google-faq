@@ -27,16 +27,10 @@ $faqs = [
 
 foreach($faqs as $key => $domrisp){
 
-echo $key;
-
 // var_dump($domrisp);
 
-foreach($domrisp as $needed){
-
-echo $needed['answer'];
-
-// var_dump($needed);
-}
+echo "<h4>" .  $domrisp['question'] . "</h4>";
+echo "<h6>" . $domrisp['answer'] . "</h6>";
 
 }
 
